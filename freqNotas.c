@@ -11,7 +11,7 @@
   }
 
 // • #'s e b's funciona para a nota mi e si (modelo clássico)
-// • Dobrado sustenido e dobrado bemol SÃO permitidos, ao invés, troque pela nota 
+// • Dobrado sustenido e dobrado bemol SÃO permitidos
 double nota(char nota[]) {
   if (strlen(nota) < 1)
     return 0;
