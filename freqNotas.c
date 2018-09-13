@@ -61,14 +61,3 @@ double nota(char nota[]) {
   double Hz = 440.0 * pow(pow(2.0, 1.0 / 12.0), valorNota - 58.0);
   return Hz;
 }
-
-// Exemplo
-int main() {
-  printf("%.2fHz\n", nota("A#0")); // 29.14Hz
-  printf("%.2fHz\n", nota("A4")); // 440.00Hz
-  printf("%.2fHz\n", nota("Cb3")); // 123.47Hz
-  printf("%.2fHz\n", nota("B5")); // 987.77Hz
-  printf("%.2fHz\n", nota("B##7")); // 4434.92Hz
-  system("PAUSE");
-  return 0;
-}
