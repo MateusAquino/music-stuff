@@ -1,6 +1,7 @@
 # Musical Application
 ## Within this repository:
 * Musical note to Frequency (in Hz) Converter | notes.c
+* Frequency (in Hz) to Musical note Converter | notes.c
 
 ## How to use:
 ### notes.c
