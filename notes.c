@@ -48,7 +48,7 @@ double note(char note[]) {
   substr[atual] = '\0';
   int numOitavas = atoi(substr);
   if (substr[0] == '\0')
-    numOitavas = 4; // padr„o
+    numOitavas = 4; // padr√£o
   valorNota += 12 * numOitavas;
   double Hz = 440.0 * pow(2.0, (valorNota - 58.0)/12.0);
   return Hz;
@@ -84,16 +84,4 @@ listNotes(int amount) {
   	char *Nt = hz(Hz);
   	printf("%s - %.2fHz (%d)\n", hz(Hz), note(Nt), (int) n);
   }
-}
-
-main() {
-  printf("%.2fHz\n", note("C0"));   // 16.35Hz
-  printf("%.2fHz\n", note("Cb3"));  // 123.47Hz
-  printf("%.2fHz\n", note("B##7")); // 4434.92Hz
-  printf("%s\n", hz(440.00));       // "A4"
-  printf("%s\n", hz(987.77));       // "B5"
-  printf("%s\n", hz(2489.02));      // "D#7"
-  printf("\n - Notas: -\n");
-  listNotes(12);                    // List the first 12 notes
-  system("PAUSE");
 }
