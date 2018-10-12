@@ -2,6 +2,7 @@
 ## Within this repository:
 * Musical note to Frequency (in Hz) Converter | notes.c
 * Frequency (in Hz) to Musical note Converter | notes.c
+* Arduino-based Flyback's Musical Tesla Coil  | arduino_flyback.ino
 
 ## How to use:
 ### notes.c
